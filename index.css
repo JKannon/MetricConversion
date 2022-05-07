@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    background: #1f1f1f;
+    font-size: 14px;
+}
+h4{
+    font-weight: normal;
+}
+h5{
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+h1{
+    width: auto;
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 2px  solid white;
+}
+p{
+    color: #D2D2D2;
+    margin-bottom: 30px;
+}
+#unit_conversion {
+    width: 80%;
+    border-radius: 0px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+#number_section {
+    background-image: linear-gradient(
+    340deg,
+    hsl(196deg 71% 63%) 0%,
+    hsl(193deg 74% 59%) 14%,
+    hsl(191deg 75% 53%) 20%,
+    hsl(188deg 100% 44%) 25%,
+    hsl(187deg 100% 43%) 30%,
+    hsl(185deg 100% 42%) 34%,
+    hsl(184deg 100% 41%) 37%,
+    hsl(182deg 100% 39%) 41%,
+    hsl(179deg 100% 38%) 45%,
+    hsl(176deg 100% 38%) 48%,
+    hsl(173deg 100% 38%) 52%,
+    hsl(170deg 100% 38%) 55%,
+    hsl(167deg 100% 38%) 59%,
+    hsl(163deg 100% 38%) 63%,
+    hsl(159deg 100% 38%) 66%,
+    hsl(155deg 100% 37%) 70%,
+    hsl(150deg 100% 37%) 75%,
+    hsl(146deg 100% 37%) 80%,
+    hsl(139deg 94% 37%) 86%,
+    hsl(118deg 63% 44%) 100%
+    );
+    color: #fff;
+    padding: 43px 20px 23px;
+}
+#conversion_section{
+    padding: 20px; 
+    background: #1F2937;
+}
+.big_input {
+    font-size: 95px;
+    background: none;
+    color: white;
+    text-align: center;
+    width: auto;
+    max-width: 100%;
+    border: none;
+    margin-bottom: 30px;
+    outline: none;
+}
+.big_input:focus {
+    outline: none;
+    border-bottom: 1px solid white;
+}
+.bar{
+    border: 2px solid white;
+    width: 35px;
+    margin: 0 auto 20px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

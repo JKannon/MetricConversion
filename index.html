@@ -1,0 +1,43 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="unit_conversion">
+            <div id="number_section">
+                <h1>Metric / Imperial unit conversion</h1>
+                <h4>Change the number below:</h4>
+                <input type="number" id="number_input" class="big_input" value="0" oninput="updateUnits();" placeholder="Enter Value"/>
+                <!-- <h1 id="number_display" class="initial_unit"></h1> -->
+            </div>
+            <div id="conversion_section">
+                <h5>Length (Meter/Feet)</h5>
+                <p class="mb_25">
+                    <span id="number_meters" class="initial_unit"></span> meters = 
+                    <span id="converted_feet"></span> feet 
+                    | 
+                    <span id="number_feet" class="initial_unit"></span> feet = 
+                    <span id="converted_meters"></span> meters
+                </p>
+                <h5>Volume (Liters/Gallons)</h5>
+                <p class="mb_25">
+                    <span id="number_liters" class="initial_unit"></span> liters = 
+                    <span id="converted_gallons"></span> gallons 
+                    | 
+                    <span id="number_gallons" class="initial_unit"></span> gallons = 
+                    <span id="converted_liters"></span> liters
+                </p>
+                <h5>Mass (Kilograms/Pounds)</h5>
+                <p class="mb_25">
+                    <span id="number_kilos" class="initial_unit"></span> kilos = 
+                    <span id="converted_pounds"></span> pounds 
+                    | 
+                    <span id="number_pounds" class="initial_unit"></span> pounds = 
+                    <span id="converted_kilos"></span> kilos
+                </p>
+                
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
